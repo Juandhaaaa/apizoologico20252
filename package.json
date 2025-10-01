@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "express": "^5.1.0"
-
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0"
   },
   "devDependencies": {
-    "nodemon" :"3.1.10"
+    "nodemon": "^3.1.10"
   },
   "scripts": {
-    "dev": "nodemon inex.js"
-}
+    "dev": "nodemon src/inex.js"
+  }
 }
